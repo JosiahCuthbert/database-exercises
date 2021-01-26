@@ -20,3 +20,17 @@ WHERE emp_no IN (
     SELECT emp_no
     FROM dept_manager
     WHERE gender = 'F' AND to_date > now());
+
+# adlister
+
+# SELECT email_address, first_name, last_name, user_id
+# FROM users
+# WHERE email_address IN (
+#     SELECT ad_id
+#     FROM ads
+#     WHERE ad_id = given_ad_id;
+
+
+
+
+
